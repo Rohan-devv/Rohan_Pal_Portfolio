@@ -79,7 +79,7 @@ export default function Hero() {
                 </span>
                 <span className="mx-3 text-primary animate-pulse">|</span>
                 <span className="inline-block animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-                  MERN Specialist
+                  MERN Developer
                 </span>
               </p>
               <div className="flex items-center justify-center gap-2 mt-4">
