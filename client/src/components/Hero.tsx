@@ -149,7 +149,7 @@ export default function Hero() {
                 className="group relative w-12 h-12 rounded-full border-2 border-primary/20 hover:border-primary hover:bg-primary/10 hover:scale-110 transition-all backdrop-blur-sm"
                 data-testid="link-linkedin"
               >
-                <a href="www.linkedin.com/in/rohanpal01" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/in/rohanpal01" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                   <Linkedin className="h-5 w-5 group-hover:scale-110 transition-transform" />
                 </a>
               </Button>
