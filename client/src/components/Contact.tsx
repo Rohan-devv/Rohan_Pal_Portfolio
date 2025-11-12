@@ -13,19 +13,19 @@ const socialLinks = [
   {
     name: "LinkedIn",
     icon: Linkedin,
-    url: "https://linkedin.com/in/rohanpal",
+    url: "https://www.linkedin.com/in/rohanpal01",
     username: "rohanpal",
   },
   {
     name: "GitHub",
     icon: Github,
-    url: "https://github.com/rohanpal",
+    url: "https://github.com/rohan-devv",
     username: "rohanpal",
   },
   {
     name: "GeeksforGeeks",
     icon: SiGeeksforgeeks,
-    url: "https://auth.geeksforgeeks.org/user/rohanpal",
+    url: "https://www.geeksforgeeks.org/user/user_tm7u6u07et8",
     username: "rohanpal",
   },
 ];
