@@ -63,17 +63,24 @@ export default function Hero() {
           {/* Main heading with split animation */}
           <div className="space-y-6">
             <div className="relative inline-block">
-              <h1 className="font-display font-bold text-6xl md:text-8xl lg:text-9xl gradient-text-shine leading-tight tracking-tight">
-                <span className="inline-flex hover:scale-110 transition-transform duration-300 transform-origin-center">
+              <h1 className="font-display font-bold text-6xl md:text-8xl lg:text-9xl leading-none tracking-tight whitespace-nowrap">
+
+                {/* Rohan */}
+                <span className="inline-block hover:scale-110 transition-transform duration-300 transform-gpu 
+                      bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
                   Rohan
                 </span>
-                <span className="inline-flex mx-3 hover:scale-110 transition-transform duration-300 transform-origin-center">
+
+                {/* Pal */}
+                <span className="inline-block mx-3 hover:scale-110 transition-transform duration-300 transform-gpu 
+                      bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
                   Pal
                 </span>
 
               </h1>
+
               {/* Glow effect */}
-              <div className="absolute inset-0 blur-3xl bg-primary/20 -z-10 scale-110 animate-pulse"></div>
+              <div className="absolute inset-0 blur-3xl bg-primary/20 -z-10 scale-110 pointer-events-none"></div>
             </div>
 
             {/* Animated subtitle */}
