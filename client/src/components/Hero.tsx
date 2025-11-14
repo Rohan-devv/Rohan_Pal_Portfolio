@@ -25,7 +25,7 @@ export default function Hero() {
       <div className="absolute inset-0 gradient-bg opacity-20 animate-gradient-shift"></div>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_800x800_at_top,_var(--tw-gradient-stops))] from-primary/30 via-primary/10 to-transparent animate-pulse"></div>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_600x600_at_bottom_right,_var(--tw-gradient-stops))] from-primary/20 via-transparent to-transparent"></div>
-      
+
       {/* Floating geometric shapes */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-primary/10 rounded-full blur-3xl animate-float"></div>
       <div className="absolute top-40 right-20 w-40 h-40 bg-primary/15 rounded-full blur-3xl animate-float-delayed"></div>
@@ -50,7 +50,7 @@ export default function Hero() {
           ></div>
         ))}
       </div>
-      
+
       <div className="max-w-7xl mx-auto px-6 py-20 text-center relative z-10">
         <div className="space-y-10 animate-fade-in-up">
           {/* Greeting badge */}
@@ -64,8 +64,13 @@ export default function Hero() {
           <div className="space-y-6">
             <div className="relative inline-block">
               <h1 className="font-display font-bold text-6xl md:text-8xl lg:text-9xl gradient-text-shine leading-tight tracking-tight">
-                <span className="inline-block hover:scale-110 transition-transform duration-300 transform-gpu">Rohan</span>
-                <span className="inline-block mx-3 hover:scale-110 transition-transform duration-300 transform-gpu">Pal</span>
+                <span className="inline-flex hover:scale-110 transition-transform duration-300 transform-origin-center">
+                  Rohan
+                </span>
+                <span className="inline-flex mx-3 hover:scale-110 transition-transform duration-300 transform-origin-center">
+                  Pal
+                </span>
+
               </h1>
               {/* Glow effect */}
               <div className="absolute inset-0 blur-3xl bg-primary/20 -z-10 scale-110 animate-pulse"></div>
@@ -92,7 +97,7 @@ export default function Hero() {
 
           {/* Description */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: '0.6s' }}>
-            Crafting <span className="text-primary font-semibold">robust software solutions</span> with modern technologies. 
+            Crafting <span className="text-primary font-semibold">robust software solutions</span> with modern technologies.
             Passionate about creating <span className="text-primary font-semibold">exceptional user experiences</span>, writing clean code, and solving complex engineering challenges.
           </p>
 
