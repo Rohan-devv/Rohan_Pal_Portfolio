@@ -64,8 +64,8 @@ export default function Hero() {
           <div className="space-y-6">
             <div className="relative inline-block">
               <h1 className="font-display font-bold text-6xl md:text-8xl lg:text-9xl gradient-text-shine leading-tight tracking-tight">
-                <span className="inline-block hover:scale-110 transition-transform duration-300">Rohan</span>
-                <span className="inline-block mx-3 hover:scale-110 transition-transform duration-300">Pal</span>
+                <span className="inline-block hover:scale-110 transition-transform duration-300 transform-gpu">Rohan</span>
+                <span className="inline-block mx-3 hover:scale-110 transition-transform duration-300 transform-gpu">Pal</span>
               </h1>
               {/* Glow effect */}
               <div className="absolute inset-0 blur-3xl bg-primary/20 -z-10 scale-110 animate-pulse"></div>
